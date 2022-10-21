@@ -1,0 +1,38 @@
+.catalogs-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name-catalog{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.catalogs-list-item {
+    width: calc(100% / 3 - 10px);
+    min-width: 300px;
+
+}
+
+.show-all {
+    display: flex;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 109%;
+    margin-bottom: 10px;
+}
+.img-list-item {
+    width: 214px;
+    height: 214px;
+}
+
+.catalogs-list-item-img {
+    padding-bottom: 2px;
+    margin-left: 5px;
+}

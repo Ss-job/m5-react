@@ -1,0 +1,82 @@
+.filter {
+    display: flex;
+    
+}
+
+.text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 109%;
+    margin-bottom: 5px;
+}
+
+select {
+    outline: none;
+    border: none;
+    width: 100%;
+
+    /* appearance: none; */
+}
+select::after{
+    content: '../../../public/Img_coins/Advanced-filter.svg'
+}
+select .choose {
+    color: yellow;
+}
+.list {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 121%;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+
+
+    min-width: 374px;
+    height: 48px;
+    border: 1px solid #000000;
+}
+input{
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+.right {
+    margin-left: 30px;
+}
+
+.price,
+.year-of-issue {
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+
+.text-right {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 109%;
+    align-items: center;
+
+}
+
+.field-right {
+    display: flex;
+    box-sizing: border-box;
+    width: 155px;
+    height: 48px;
+    border: 1px solid #000000;
+    margin: 0 7px;
+    align-items: center;
+    overflow: hidden;
+
+}
+select {
+    overflow: hidden;
+}
